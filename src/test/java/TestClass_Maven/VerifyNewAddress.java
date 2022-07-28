@@ -33,11 +33,11 @@ public class VerifyNewAddress {
 	HomePage hp;
 	ProfilePage pp;
 	
-	//****************
+
 	ExtentHtmlReporter ExtendReport;
 	ExtentReports report;
 	ExtentTest test;
-    //****************
+  
 	
 	@BeforeClass
 	public void beforeClass() throws InterruptedException, IOException
