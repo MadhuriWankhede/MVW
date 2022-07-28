@@ -70,7 +70,7 @@ public class ProfilePage extends Util1 {
 	public void fillAddressDetails()
 	{
 		
-		String[] k = {"Harshal", "7766754493", "431001", "Aurangabad"};
+		String[] k = {"Kalpesh", "8763704293", "431001", "Aurangabad"};
 		for(int i=0;i<4;i++)
 		{
 			addressDetails.get(i).sendKeys(k[i]);	
@@ -80,7 +80,7 @@ public class ProfilePage extends Util1 {
 	
 	public void fillMainAddress()
 	{
-		address.sendKeys("A-188, Indra, Savarkar chauk, Aurangabad");
+		address.sendKeys("C-9, DeepNivas, N-8, Aurangabad");
 		
 	}
 	

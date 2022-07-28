@@ -76,7 +76,6 @@ public class Verifyuserlogin {
 		
 		else
 		{
-		
 			String path = lp.getScreenShot(driver,result.getName());
 			test.log(Status.FAIL, result.getName() +"Test failed", MediaEntityBuilder.createScreenCaptureFromPath(path).build());
 		}
